@@ -1,0 +1,68 @@
+:root {
+  --bg: #202020;
+  --bg-accent: #48414d;
+  --text-color: #dadce1;
+  --border-radius: 8px;
+  --nav-size: 90px;
+  --speed: 500ms;
+}
+
+ul {
+  list-style: none !important ;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color) !important ;
+  text-decoration: none;
+}
+
+.navbar {
+  height: var(--nav-size);
+  background-color: var(--bg);
+  padding: 0 1rem !important;
+  border-bottom: var(--border);
+  display: flex;
+  flex-direction: row !important;
+}
+
+.navbar-nav {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row !important;
+}
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.groovegaming-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 150px;
+  margin-left: 200px;
+}
+
+.groovegaming-logo:hover {
+  filter: brightness(1.4);
+}
+
+/* .menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+} */
+
+.icon-right {
+  margin-left: auto;
+}

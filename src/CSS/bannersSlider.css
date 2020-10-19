@@ -1,0 +1,44 @@
+.bannerImage {
+  /* position: absolute; */
+  /* max-width: 100%; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerImage img {
+  width: 100%;
+}
+.App {
+  background-color: #202020;
+}
+.slider {
+  width: 100%;
+  background-color: #202020;
+}
+.slick-dots li button::before {
+  /* ეს შევქმენი */
+  color: #fff;
+}
+.slider .slick-next {
+  /* ეს შევქმენი */
+  position: absolute;
+  right: 50px;
+}
+.slider .slick-prev {
+  /* ეს შევქმენი */
+  position: absolute;
+  left: 50px;
+  z-index: 10;
+}
+
+.sliderContainer {
+  max-width: 80%;
+  margin: auto;
+}
+
+.dots {
+  background-color: #202020;
+  position: absolute;
+}
