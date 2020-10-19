@@ -24,7 +24,7 @@ const ApiDocument = () => {
           <td>21.04.1998</td>
         </tr>
         <tr>
-          <td>1.0.1</td>
+          <td>1.1.1</td>
           <td>
             Added support to launch game lobby function in LoginRequest and
             LoginRequestForFun
