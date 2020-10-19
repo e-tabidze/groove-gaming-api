@@ -1,6 +1,7 @@
 {
   "name": "documentation-page",
   "version": "0.1.0",
+  "@oclif/config": "^1.17.0",
   "private": true,
   "dependencies": {
     "@oclif/config": "^1.17.0",
